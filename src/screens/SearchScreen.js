@@ -22,14 +22,14 @@ const SearchScreen = () => {
     });
   };
   // flex style i most parent view gjør at alt blir med.
+  // <> <= denne gjør at ting ikke får lov til å gå utenfor skjermen
   return (
-    <View style={{ flex: 1 }}>
+    <>
       <SearchBar
         term={term}
         onTermChange={setTerm}
         onTermSubmit={() => searchApi(term)}
       />
-
       {errorMessage ? <Text>{errorMessage}</Text> : null}
       <ScrollView>
         <ResultsList results={filterResultsByPrice("$")} title="Rolig priser" />
@@ -43,7 +43,7 @@ const SearchScreen = () => {
           title="Dumme lægz"
         />
       </ScrollView>
-    </View>
+    </>
   );
 };
 

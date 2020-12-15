@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
     borderRadius: 5, // rundet kanter på viewen
     marginHorizontal: 15,
     flexDirection: "row",
+    marginBottom: 10,
   },
   inputStyle: {
     flex: 1, // flex gjør at de strekker seg og tar all plassen
