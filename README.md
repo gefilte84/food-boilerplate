@@ -7,7 +7,7 @@ Har props kommunikasjon mellom komponenter.
 
 Bruker Flatlist for å håndtere data arrays fra API yelp.
 
-Yelp api er brukt for data fetching.
+Yelp api er brukt for data innhenting.
 
 Bruker axios for å hente data.
 
