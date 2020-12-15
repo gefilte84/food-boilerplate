@@ -1,4 +1,4 @@
-# Restaurant app med søke funkjson. Laget i React
+# Restaurant app med søke funksjon. Laget i React
 Har react hooks (useState, useEffect) for å håndtere endringer i skjerm og for å kjøre visse funksjoner en gang
 har react-navigation-stack for navigering
 har props kommunikasjon mellom komponenter
